@@ -8,7 +8,7 @@
 </head>
 <body>
 	I don't love java, but i starting to love spring...
-	Hii ${name}
+	Hii ${obj.aid}, ${obj.aname}, ${obj.lang}
 
 </body>
 </html>

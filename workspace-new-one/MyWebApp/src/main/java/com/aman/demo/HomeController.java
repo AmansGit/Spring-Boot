@@ -39,7 +39,7 @@ public class HomeController {
 	public ModelAndView home(Aman aman) {
 		ModelAndView mv = new ModelAndView(); //ModelAndView is responsible to hold two things data and view name
 		mv.addObject("obj", aman); 		// here data is hold
-		mv.setViewName("home");							// here view name is hold (home.jsp)
+		mv.setViewName("home");							// here viewName holds (home.jsp)
 		return mv;
 	}
 }
